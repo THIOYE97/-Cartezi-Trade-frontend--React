@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Poppins", "san-serif";
+}
+
+/* Pure solid black background */
+.authContainer {
+  background: #000000;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.bgBlure {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
